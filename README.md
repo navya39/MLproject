@@ -1,1 +1,2 @@
 # MLproject
+MNIST Data was used to show the differences between various dimensionality reduction algorithms. A batch of 1000 was selected randomly from the dataset. The techniques used were Principle component analysis, Sparse and Gaussian Random Projections, t-distributed Stochastic Neighbor Embedding, Multi-Dimensional Scaling and locally linear embedding. In all the above techniques the subspace dimension was taken as 2 so that it’s easier to visualise the points on a scatter plot. PCA and t-SNE worked better for this dataset.
